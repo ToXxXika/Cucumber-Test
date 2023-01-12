@@ -15,7 +15,7 @@ public class RunCucumberTest {
     @BeforeClass
     public static void beforeClass(){
         driver = new ChromeDriver();
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\mabro\\IdeaProjects\\selenium_java");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\mabro\\IdeaProjects\\Cucumber-Test");
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
     }
